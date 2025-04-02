@@ -6,6 +6,7 @@ void removeElement(int* arr, int n, int val)
     int k = 0;
     for(int i=0; i<n; ++i)
     {
+        // cout << "I am modified using a pen" << endl;
         if(arr[i] != val)
         {
             arr[k] = arr[i];
