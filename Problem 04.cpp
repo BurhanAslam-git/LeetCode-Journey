@@ -4,8 +4,6 @@ using namespace std;
 
 int findPosition(int *arr, int n, int val)
 {
-
-    // cout << "I had modified this code, Now I am checking this only " << endl;
     int left = 0, right = n - 1, mid;
 
     while (left <= right)
