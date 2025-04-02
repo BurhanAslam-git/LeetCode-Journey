@@ -3,9 +3,7 @@
 using namespace std;
 
 int findPosition(int *arr, int n, int val)
-{
-    // I have modified the code, just for checking.
-    
+{   
     int left = 0, right = n - 1, mid;
 
     while (left <= right)
